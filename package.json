@@ -1,0 +1,61 @@
+{
+  "name": "postcss-scrollbar",
+  "version": "1.0.0",
+  "description": "Postcss plugin for pure css scrollbar",
+  "main": "index.js",
+  "engines": {
+    "node": ">=10.0"
+  },
+  "scripts": {
+    "test": "jest-ci --coverage"
+  },
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dangvanthanh/postcss-scrollbar.git"
+  },
+  "keywords": [
+    "css",
+    "scrollbar",
+    "custom scrollbar",
+    "postcss",
+    "postcss-plugin"
+  ],
+  "author": "Dang Van Thanh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dangvanthanh/postcss-scrollbar/issues"
+  },
+  "homepage": "https://github.com/dangvanthanh/postcss-scrollbar#readme",
+  "peerDependencies": {
+    "postcss": "^8.2.1"
+  },
+  "devDependencies": {
+    "husky": "^4.3.6",
+    "jest": "^26.6.3",
+    "jest-ci": "^0.1.1",
+    "lint-staged": "^10.5.3",
+    "postcss": "^8.2.1",
+    "prettier": "^2.2.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write"
+    ]
+  },
+  "prettier": {
+    "printWidth": 100,
+    "trailingComma": "es5",
+    "semi": false,
+    "singleQuote": true
+  }
+}
