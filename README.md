@@ -7,7 +7,7 @@
 ### Installation
 
 ```bash
-$ npm i --save postcss-scrollbar
+$ npm i --save postcss-scrollable
 ```
 
 #### Configure
@@ -15,7 +15,7 @@ $ npm i --save postcss-scrollbar
 ```js
 module.exports = {
 	plugins: {
-		require('postcss-scrollbar')
+		require('postcss-scrollable')
 	}
 }
 ```
@@ -25,7 +25,7 @@ With options
 ```js
 module.exports = {
 	plugins: {
-		require('postcss-scrollbar')({
+		require('postcss-scrollable')({
       color: '#20692b',
       width: '4px',
       height: '4px',
