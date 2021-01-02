@@ -30,7 +30,7 @@ it('Append default scrollbar', () => {
     height: 6px
 }
 ::-webkit-scrollbar-thumb {
-    background-color: #006378;
+    background-color: #006387;
     border-radius: 6px;
     overflow: hidden
 }
