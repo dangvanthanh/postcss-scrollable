@@ -1,5 +1,5 @@
 module.exports = (opts) => {
-  let options = Object.assign(
+  const options = Object.assign(
     { color: '#006387', width: '6px', height: '6px', radius: '6px' },
     opts
   )
